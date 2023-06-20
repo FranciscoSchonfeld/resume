@@ -1,0 +1,58 @@
+.general-navbar {
+	position: absolute;
+	top: 0;
+	left: 101px;
+	right: 0;
+	height: 50px;
+	background-color: rgb(15, 23, 42);
+}
+
+.email-navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 18px;
+	margin-left: 30px;
+}
+
+.email-text {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	opacity: 0.5;
+	font-size: 16px;
+}
+
+.email {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	opacity: 0.65;
+	font-weight: bold;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.email:hover {
+	text-decoration-color: gray;
+	transition: text-decoration-color .5s;
+}
+
+
+@media screen and (max-width: 768px) {
+	.general-navbar {
+		position: static;
+		left: auto;
+		right: auto;
+	}
+
+	.email-navbar {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.email-text,
+	.email {
+		font-size: 12px;
+		padding-left: 5px;
+	}
+}
+

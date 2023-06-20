@@ -1,0 +1,95 @@
+{% load static %}
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Francisco Schonfeld</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'resume/css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'resume/css/sidebar.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'resume/css/navbar.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'resume/css/project.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'resume/css/aboutme.css' %}">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap" rel="stylesheet">
+	
+</head>
+<body style="padding-left: 115px; padding-top: 50px;  margin: 0; background-color: rgb(15, 23, 42); padding-bottom: 45px; padding-right: 15px;">
+
+
+	<div class="sidebar">
+	<a class="top-sidebar" href="#home">&lt;&nbsp;F S&nbsp;&gt;</a>
+	<div class="middle-sidebar">...&nbsp;DJANGO DEVELOPER&nbsp;...</div>
+		<div class="bottom-sidebar">
+			<div class="sidebar-pic">
+					<a href="https://github.com/FranciscoSchonfeld" target="_blank"><img src="{% static 'resume/images/github.jpeg'%}"></a>
+				</div>
+				<div class="sidebar-pic-linkedin">
+					<a href="https://www.linkedin.com/in/francisco-montoya-schonfeld/" target="_blank"><img src="{% static 'resume/images/linkedin.jpeg'%}"></a>
+				</div>
+				<div class="sidebar-pic-email">
+					<a href="mailto:francisco.montoya.schonfeld@gmail.com"><img src="{% static 'resume/images/email-two.jpeg'%}"></a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="general-navbar">
+		<div class="email-navbar">	
+			<span class="email-text" id="home">Email:</span>
+			<a href="mailto:francisco.montoya.schonfeld@gmail.com" class="email">francisco.montoya.schonfeld@gmail.com</a>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="main-text">
+			<h1>Hi, I'm Francisco!
+			<br>
+				Django Developer, Software Enthusiast.
+			</h1>
+			<p class="snippet">&nbsp;Welcome, nice to meet you. This is my personal space where I show you my <a href="#project" class="link">projects</a> and tell you some things <a href="#aboutme" class="link">about me</a>.</p>
+			<div class="buttons">
+				<a href="https://github.com/FranciscoSchonfeld" target=”_blank”><button class="project-button">My projects</button></a>
+				<a href="mailto:francisco.montoya.schonfeld@gmail.com"><button class="about-button">Contact me</button></a>
+			</div>
+
+			<h5 class="scroll-down"><a href="#project" class="link">Scroll down</a></h5>
+			
+
+
+		</div>
+
+	</div>
+
+	<div>
+		<h1 id="project" class="title">Finance Management:</h1>
+		<p class="title_text">This is one of my main projects in development, where a User can keep track in a simple way their monthly expenses. Also, with the help of a graph, visualize how much they spend in different categories. Give it a <a href="https://francisco-schonfeld-c0ee4a3e0a34.herokuapp.com/" style="color: white;" target="_blank">try</a>!</p>
+	</div>	
+
+	<div class="proj-pic">
+			<img src="{% static 'resume/images/finance-app.png'%}">				
+	</div>
+
+	<br>
+
+	<div class="about-me">
+		<h3 class="title-about" id="aboutme">About me:</h3>
+		<p class="aboutme-snippet">If I have to choose a word that represent me it would be "passionate", because I think that everything we make, it has to be done with a 100% of compromise and energy, and the best way to achivie it is with passion. Because of it, I only do things that wake up that part inside me, and being a Django Developer is one of them. I'm constantly looking to learn and grow in the field, facing new challenges and managing different approach to problems.
+		</p>
+		<p class="aboutme-snippet">While I was a freshman in Computer Science the pandemic occured, some people regret that period because a lot of things changed, in my case, I am grateful for it, because that was the cause I knew a different way to develop my skill sets in programming, giving me the opportunity to get inside the field.
+		</p>
+		<p class="aboutme-snippet">That is the way I face adversity, always trying to get something good out of it. And i think that is possible because I don't really focus on the problems but the solution.</p>
+	</div>
+
+	<div class="scroll">
+		<h5 class="scroll-up"><a href="#home" class="link">SCROLL UP</a></h5>
+	</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,26 @@
+
+.about-me {
+  padding-top: 130px;
+  background-color: rgb(10, 17, 32);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.title-about {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Figtree, sans-serif;
+  margin-top: 0;
+}
+
+.aboutme-snippet {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Figtree, sans-serif;
+  margin-top: 10px;
+}
+

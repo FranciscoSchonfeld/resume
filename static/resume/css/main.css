@@ -1,0 +1,147 @@
+
+
+.main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  height: 645px;
+  overflow: auto;
+  resize: vertical;
+  overflow-y: hidden;
+}
+
+.main-text {
+  padding-top: 125px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: grid;
+  font-family: Oswald, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 55px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.snippet {
+  color: rgb(180, 180, 180);
+  font-size: 14px;
+  font-family: Figtree, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 20px;
+  padding-top: 25px;
+}
+
+.link {
+  color: rgb(180, 180, 180);
+}
+
+.link:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.buttons {
+  padding-top: 20px;
+  padding-left: 7px;
+  border: 15px;
+}
+
+.project-button {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: none;
+  background-color: rgb(240, 0, 0);
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.about-button {
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: none;
+  background-color: rgb(51, 65, 85);
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.project-button:hover,
+.about-button:hover {
+  opacity: 0.6;
+  transition: opacity 0.6s;
+}
+
+.main-pic img {
+  /*  height: 600px;*/
+  padding: 50px;
+  width: 350px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.scroll-down {
+  padding-top: 150px;
+  padding-left: 10px;
+}
+
+.scroll-up {
+  font-family: Oswald, sans-serif;
+  font-size: 11.62px;
+  font-weight: 700;
+  color: rgb(180, 180, 180);
+  padding-right: 20px;
+  padding-top: 35px;
+  padding-left: 90%;
+}
+
+h5 a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .main {
+    height: auto;
+  }
+
+  .main-text {
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .buttons {
+    padding-top: 40px;
+  }
+
+  .project-button,
+  .about-button {
+    padding: 10px 20px;
+    width: 100%;
+  }
+
+  .project-button {
+    margin-bottom: 10px;
+  }
+
+  .scroll-down {
+    padding-top: 80px;
+  }
+}
